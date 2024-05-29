@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1E90FF; /* Đổi màu nền thành màu xanh nước biển */
+}
+
+.container {
+    display: flex;
+    width: 2300px;  /* Tăng kích thước tối đa để phần login và đăng ký to hơn */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    min-height: 90vh; /* Tăng chiều cao tối thiểu */
+}
+
+.image-section {
+    position: relative;
+    flex: 4;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;  /* Tăng flex để phần form lớn hơn */
+    padding: 80px;  /* Tăng padding để form to hơn */
+}
+
+.form-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;  /* Tăng kích thước chữ tiêu đề */
+}
+
+.input-group {
+    margin-bottom: 20px;  /* Tăng khoảng cách giữa các nhóm input */
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.5em;  /* Tăng kích thước chữ input */
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1.5em;  /* Tăng kích thước chữ button */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.3em;  /* Tăng kích thước chữ liên kết */
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-login button {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    font-size: 1.2em;  /* Kích thước chữ của nút đăng nhập bằng Google và Facebook */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: white;
+}
+
+.google-btn:hover {
+    background-color: #c33c2e;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: white;
+}
+
+.facebook-btn:hover {
+    background-color: #334d84;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #1E90FF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
