@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentCare</title>
+    
+    <!-- logo -->
+    <link rel="icon" href="img/logo3.png">
+    
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link  rel="stylesheet" href="css/style2.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tempusdominus-bootstrap-4@5.39.2/build/css/tempusdominus-bootstrap-4.min.css">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid top-bar ps-5 pe-0 d-none d-lg-block ">
+        <div class="row gx-0">
+            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                    <div class="me-3 pe-3 border-end py-2">
+                        <p class="m-0"><i class="fa fa-envelope me-2"></i>info@example.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone me-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3">
+        <a href="index.html" class="navbar-brand">
+            <h1 class="m-0 text-primary"><i class="fa fa-tooth me-2"></i>DentCare</h1>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                        <a href="team.html" class="dropdown-item">Our Dentist</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="appointment.html" class="dropdown-item">Appointment</a>
+                        <a href="record.html" class="dropdown-item">Record</a>
+
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="schedule.html" class="nav-item nav-link">Schedule</a>
+
+            </div>
+
+            <form action="">
+                <input type="text" class="nav-input">
+                <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa-solid fa-magnifying-glass fs-5"></i></button>
+            </form>
+
+            <a href="login.html" class="btn btn-primary py-2 px-4 ms-3">Log In</a>
+
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 hero-header mb-5">
+        <div class="row py-3">
+            <div class="col-12 text-center">
+                <h1 class="display-3 text-white animated zoomIn">Dental Health History</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Dental Health History Start -->
+    
+    <div class="container container-custom mb-5">
+        <div class="row row-custom">
+            <div class="col-md-12 text-center fw-bold h5">Basic Information</div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-6 col-border">
+                <label class="w-100 ps-2">Patient Name</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3 col-border">
+                <label class="w-100 ps-2">Date of Birth</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3">
+                <label class="w-100 ps-2">Email</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-9 col-border">
+                <label class="w-100 ps-2">Address</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3">
+                <label class="w-100 ps-2">Contact Number</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12 text-center fw-bold h5">Dental History</div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12">
+                <label class="w-100 ps-2">Reason for Today's Visit</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-6 col-border">
+                <label class="w-100 ps-2">Former Dentist Name</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3 col-border">
+                <label class="w-100 ps-2">Email</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3">
+                <label class="w-100 ps-2">Contact Number</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-3 col-border">
+                <label class="w-100 ps-2">Date of Last Dental Care</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3 col-border">
+                <label class="w-100 ps-2">Date of Last Dental X-rays</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3 col-border">
+                <label class="w-100 ps-2">Flossing Frequency</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3">
+                <label class="w-100 ps-2">Brushing Frequency</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12">
+                <label class="w-100 ps-2">Select any of the following problems you have or have had</label>
+                <div class="checkbox-group w-100 ps-2">
+                    <label><input type="checkbox" checked> Bad Breath</label>
+                    <label><input type="checkbox"> Grinding Teeth</label>
+                    <label><input type="checkbox"> Sensitivity to Hot</label>
+                    <label><input type="checkbox" checked> Bleeding Gums</label>
+                    <label><input type="checkbox"> Loose Teeth or Broken Fillings</label>
+                    <label><input type="checkbox"> Sensitivity to Sweets</label>
+                    <label><input type="checkbox" checked> Clicking or Popping Jaw</label>
+                    <label><input type="checkbox"> Periodontal Treatment</label>
+                    <label><input type="checkbox"> Sensitivity when Biting</label>
+                    <label><input type="checkbox" checked> Food Collection Between Teeth</label>
+                    <label><input type="checkbox" checked> Sensitivity to Cold</label>
+                    <label><input type="checkbox"> Sores or Grow row-customths in Your Mouth</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12 text-center">Medical History</div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-6 col-border">
+                <label class="w-100 ps-2">Physician Name</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3 col-border">
+                <label class="w-100 ps-2">Email</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3">
+                <label class="w-100 ps-2">Date of Last Visit</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12">
+                <div class="d-inline-block mx-5">
+                    <label>Have you ever had a blood transfusion?</label>
+                    <label class="mx-2"><input type="checkbox"> yes</label>
+                    <label class="mx-2"><input type="checkbox"> no</label>
+                </div>
+
+                <label> If yes, what was the approximate date: <input type="text" class="border-0 bg-light "></label>
+
+            </div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12">
+                <div class="d-inline-block mx-5">
+                    <label class="ps-2">Are you pregnant? </label>
+                    <label class="mx-2"><input type="checkbox"> yes</label>
+                    <label class="mx-2"><input type="checkbox"> no</label>
+                </div>
+                
+                <div class="d-inline-block mx-5">
+                    <label class="ps-2">Nursing? </label>
+                    <label class="mx-2"><input type="checkbox"> yes</label>
+                    <label class="mx-2"><input type="checkbox"> no</label>
+                </div>
+
+                <div class="d-inline-block mx-5">
+                    <label class="ps-2">Taking birth control pills? </label>
+                    <label class="mx-2"><input type="checkbox"> yes</label>
+                    <label class="mx-2"><input type="checkbox"> no</label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12">
+                <label class="w-100 ps-2">Select any of the following that you have or have had</label>
+                <div class="checkbox-group w-100 ps-2">
+                    <label><input type="checkbox"> Anemia</label>
+                    <label><input type="checkbox"> Cortisone Treatments</label>
+                    <label><input type="checkbox"> Hepatitis</label>
+                    <label><input type="checkbox" checked> Arthritis, Rheumatism</label>
+                    <label><input type="checkbox"> Persistent Cough</label>
+                    <label><input type="checkbox"> High Blood Pressure</label>
+                    <label><input type="checkbox"> Artificial Heart Valves</label>
+                    <label><input type="checkbox"> Cough Up Blood</label>
+                    <label><input type="checkbox"> HIV/AIDS</label>
+                    <label><input type="checkbox"> Artificial Joints</label>
+                    <label><input type="checkbox"> Diabetes</label>
+                    <label><input type="checkbox"> Jaw Pain</label>
+                    <label><input type="checkbox" checked> Asthma</label>
+                    <label><input type="checkbox"> Epilepsy</label>
+                    <label><input type="checkbox"> Kidney Disease</label>
+                    <label><input type="checkbox"> Back Problems</label>
+                    <label><input type="checkbox"> Fainting</label>
+                    <label><input type="checkbox"> Liver Disease</label>
+                    <label><input type="checkbox"> Blood Disease</label>
+                    <label><input type="checkbox"> Glaucoma</label>
+                    <label><input type="checkbox"> Mitral Valve Prolapse</label>
+                    <label><input type="checkbox"> Cancer</label>
+                    <label><input type="checkbox"> Headaches</label>
+                    <label><input type="checkbox"> Pacemaker</label>
+                    <label><input type="checkbox"> Chemical Dependency</label>
+                    <label><input type="checkbox"> Heart Murmur</label>
+                    <label><input type="checkbox"> Radiation Treatment</label>
+                    <label><input type="checkbox"> Chemotherapy</label>
+                    <label><input type="checkbox"> Heart Problems</label>
+                    <label><input type="checkbox"> Respiratory Disease</label>
+                    <label><input type="checkbox"> Circulatory Problems</label>
+                    <label><input type="checkbox"> Hemophilia</label>
+                    <label><input type="checkbox"> Rheumatic Fever</label>
+                    <label><input type="checkbox"> Scarlet Fever</label>
+                    <label><input type="checkbox"> Shortness of Breath</label>
+                    <label><input type="checkbox"> Skin Rash</label>
+                    <label><input type="checkbox"> Stroke</label>
+                    <label><input type="checkbox"> Swelling of Feet or Ankles</label>
+                    <label><input type="checkbox"> Thyroid Problems</label>
+                    <label><input type="checkbox"> Tobacco Habit</label>
+                    <label><input type="checkbox"> Tonsillitis</label>
+                    <label><input type="checkbox"> Tuberculosis</label>
+                    <label><input type="checkbox"> Ulcer</label>
+                    <label><input type="checkbox"> Venereal Disease</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12">
+                <label class="w-100 ps-2">List any other serious illnesses or operation that you have or have had</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+        </div>
+
+        <div class="row row-custom">
+            <div class="col-md-12 px-2 fw-bold">All the answers given to the above questions are answered accurately to the best of my knoweledge. I understand that any inaccurate information can be dangerous to me (or patient's) health.</div>
+        </div>
+
+        <div class="row row-custom last-row">
+            <div class="col-md-9 col-border">
+                <label class="w-100 ps-2">Signature of Patient, Parent, Guardian or Personal Reprensentative</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+            <div class="col-md-3">
+                <label class="w-100 ps-2">Date</label>
+                <input type="text" class="w-100 border-0 bg-light ps-2">
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <a href="index.html" class="btn btn-primary py-md-3 px-md-5 me-3">Submit</a>
+    </div>
+       
+    <!-- Dental Health History End -->
+    
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid position-relative pt-5 "  style="z-index: 1;">
+        <div class="container">
+            <div class="bg-primary p-5">
+                <form class="mx-auto" style="max-width: 600px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                        <button class="btn btn-dark px-4">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light py-5 "  style="margin-top: -75px;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Popular Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+     <!-- fontawesome -->
+     <script src="https://kit.fontawesome.com/72808751c5.js" crossorigin="anonymous"></script>
+
+   
+
+     <!-- JavaScript Libraries -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="lib/tempusdominus/js/moment.min.js"></script>
+     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+     <script src="js/main2.js"></script>
+
+</body>
+</html>
