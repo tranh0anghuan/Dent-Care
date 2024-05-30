@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+
+    <!-- Login Form -->
     <div class="container">
         <div class="image-section">
             <img src="img/Creamic1.jpg" >
@@ -30,10 +32,12 @@
                     </div>
                     <a href="#" class="forgot-password">Forgot password?</a>
                 </form>
-                <p>No account? <a href="#" onclick="showRegistrationForm()">Đăng ký ngay</a></p>
+                <p>No account? <a href="#" onclick="showRegistrationForm()">Register now</a></p>
             </div>
 
             <div class="form-section" id="registration-form" style="display: none;">
+
+            <!-- registration form -->
                 <h2>Registration Form</h2>
                 <form action="#">
                     <div class="input-group">
@@ -42,6 +46,9 @@
                     </div>
                     <div class="input-group">
                         <input type="text" id="username" name="username" placeholder="Username" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="phone-number" name="phone-number" placeholder="Phone Number" required>
                     </div>
                     <div class="input-group">
                         <input type="email" id="email" name="email" placeholder="Email Address" required>
