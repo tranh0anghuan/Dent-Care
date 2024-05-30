@@ -83,66 +83,57 @@
     <div class="container-fluid bg-primary py-5 hero-header mb-5">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">Owner</h1>
+                <h1 class="display-3 text-white animated zoomIn">Data Gathering</h1>
             </div>
         </div>
     </div>
     <!-- Hero End -->
 
-    <!-- owner Start -->
+    <!-- data start  -->
 
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row g-5 d-flex justify-content-center align-items-center ">
-                <div class="col-lg-3 " >
-                    <a href="dataGathering.html">
-                        <div class="team-item">
-                            <div class="position-relative rounded-top" style="z-index: 1;">
-                                <img class="img-fluid rounded-top w-100" src="img/enterData.png" alt="">
-                                
+    <div class="container-xxl px-4 mt-4" >
+            
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card mb-4">
+                    <div class="card-header">Dental Clinic Details</div>
+                    <div class="card-body">
+                        <form action="MainController">
+                            <div class="mb-3">
+                                <label class="small mb-1" for="inputUsername">Full Name (how your clinic name will appear to other users on the site)</label>
+                                <input class="form-control" id="inputUsername" type="text"   name="name">
                             </div>
-                            <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                                <h4 class="mb-2">Data Gathering</h4>
-                                <p class="text-primary mb-0">DentCare</p>
+                            <div class="row gx-3 mb-3">
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputFirstName">Numbers</label>
+                                    <input class="form-control" id="inputFirstName" type="text"   name="username">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputLastName">Email</label>
+                                    <input class="form-control" id="inputLastName" type="text"   name="password">
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                            <div class="mb-3">
+                                <label class="small mb-1" for="inputEmailAddress">Opening Hours</label>
+                                <input class="form-control" id="inputEmailAddress" type="text"  name="role">
+                            </div>
+                            <div class="mb-3">
+                                <label class="small mb-1" for="inputEmailAddress">Address</label>
+                                <input class="form-control" id="inputEmailAddress" type="text"  name="role">
+                            </div>
+                            
+                            <!-- Save changes button-->
+                            <input type="hidden" name="action"  value="create">
+                            <input type="hidden" name="nextaction"  value="insertUser">
+                            <button class="btn btn-primary" type="submit">Save changes</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-lg-3 " >
-                    <a href="createDentistAccount.html">
-                        <div class="team-item">
-                            <div class="position-relative rounded-top" style="z-index: 1;">
-                                <img class="img-fluid rounded-top w-100" src="img/createAccount.jpg" alt="">
-                                
-                            </div>
-                            <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                                <h4 class="mb-2">Account Creation</h4>
-                                <p class="text-primary mb-0">DentCare</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 " >
-                    <a href="admin.html">
-                        <div class="team-item">
-                            <div class="position-relative rounded-top" style="z-index: 1;">
-                                <img class="img-fluid rounded-top w-100" src="img/manager.png" alt="">
-                                
-                            </div>
-                            <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
-                                <h4 class="mb-2">Management</h4>
-                                <p class="text-primary mb-0">DentCare</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
             </div>
         </div>
     </div>
-   
 
-    <!-- owner End -->
+    <!-- data End -->
     
 
     <!-- Newsletter Start -->
