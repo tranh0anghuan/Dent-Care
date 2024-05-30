@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1E90FF; /* Đổi màu nền thành màu xanh nước biển */
+    background-color: #06A3DA; /* Đổi màu nền thành màu xanh nước biển */
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    min-height: 90vh; /* Tăng chiều cao tối thiểu */
+    min-height: 90vh; /* Tăng chiều cao tối thiểu*/
 }
 
 .image-section {
